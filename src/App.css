@@ -1,0 +1,202 @@
+.App {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card{
+  margin: 2%;
+}
+
+
+
+/* navbar part */
+#navbar {
+  display: grid;
+  grid-template-columns: 0fr 0fr 0fr 0fr 1fr;
+  column-gap: 2%;
+
+  align-items: center;
+  text-align: center;
+  background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+  padding-top: 0.8%;
+  padding-bottom: 0.8%;
+
+
+  overflow: hidden;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
+}
+
+
+.navbarImg {
+  width: 48px;
+  height: 48px;
+}
+
+/* navbar part ends here */
+
+
+/* Main content starts here */
+
+#nameIntro {
+
+  @import url('https://fonts.googleapis.com/css2?family=Sono:wght@600&display=swap');
+  font-family: 'Sono', sans-serif;
+  font-size: 300%;
+}
+
+
+#content {
+  background-color: black;
+  margin: 1.5%;
+  margin-top: 5%;
+  border-radius: 0px 100px / 120px;
+  font-family: 'Lobster', cursive;
+  @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+  font-family: 'Bree Serif', serif;
+  /* height: 90vh; */
+}
+
+#imageCol {
+  padding: 8%;
+  align-items: center;
+}
+
+.textPart {
+  padding-left: 10%;
+  padding-top: 5%;
+  text-align: justify;
+}
+
+/* main content ends here */
+
+
+/* Project Section starts here */
+
+#projects {
+  background-color: #027FB4;
+  margin: 1.5%;
+  margin-top: 5%;
+  border-radius: 100px / 120px 0px;
+  /* height: 90vh; */
+}
+
+#projectTitle {
+  /* text-align: center; */
+  /* align-items: center; */
+  color: whitesmoke;
+  padding-left: 25%;
+  padding-top: 3%;
+  /* text-align: justify; */
+}
+
+#carouselExampleIndicators {
+  padding: 7%;
+  padding-top: 6%;
+}
+
+#projectHeading {
+  font-size: 450%;
+  font-family: 'Sono', sans-serif;
+}
+
+.projInfo {
+  font-family: 'Sono', sans-serif;
+}
+
+.projImg {
+  margin-top: 10%;
+}
+
+/* Project section ends here */
+
+/* Certification section starts here */
+
+#certificates {
+  background-color: #fe7b00dc;
+  font-family: 'Sono', sans-serif;
+  color: black;
+  margin: 3%;
+  margin-top: 5%;
+  border-radius: 0% 10% 0% 70%;
+  /* height: 80vh; */
+}
+
+#cardsSection {
+  padding: 7%;
+}
+
+/* Certification section ends here */
+
+/* Youtube section starts here */
+#youtube {
+  border-radius: 15% 0% 15% 0%;
+  background-color: black;
+  font-family: 'Sono', sans-serif;
+  color: black;
+  margin: 2%;
+  margin-top: 5%;
+  /* height: 80vh; */
+}
+
+/* Youtube section ends here */
+
+/* Footer Section starts here */
+
+#footerSection{
+  align-items: center;
+  background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+  display: grid;
+  grid-template-columns: 0.5fr 0fr 0fr 0fr 0fr 0fr 0fr;
+  column-gap: 2%;
+  padding: 1%;
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+  font-family: 'Lobster', cursive;
+}
+
+
+
+
+/* Footer Section ends here */
